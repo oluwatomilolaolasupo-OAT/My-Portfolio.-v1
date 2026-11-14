@@ -299,13 +299,16 @@
         if (data.hero.portrait_image) {
           var frame = document.querySelector('.portrait-frame');
           var existingPh = document.querySelector('.portrait-placeholder');
+          var existingImg = document.querySelector('.portrait-frame .portrait-img');
           if (frame && data.hero.portrait_image.trim()) {
-            var img = document.createElement('img');
-            img.src = data.hero.portrait_image;
-            img.alt = 'Studio portrait of Olasupo Abigael Tomilola, founder of OAT Photography';
-            img.className = 'portrait-img';
-            img.loading = 'eager';
-            if (existingPh) {
+            if (existingImg) {
+              existingImg.src = data.hero.portrait_image;
+            } else if (existingPh) {
+              var img = document.createElement('img');
+              img.src = data.hero.portrait_image;
+              img.alt = 'Studio portrait of Olasupo Abigael Tomilola, founder of OAT Photography';
+              img.className = 'portrait-img';
+              img.loading = 'eager';
               frame.replaceChild(img, existingPh);
             }
           }
