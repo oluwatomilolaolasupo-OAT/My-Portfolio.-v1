@@ -1,0 +1,97 @@
+backend:
+  name: github
+  repo: oluwatomilolaolasupo-OAT/My-Portfolio.-v1
+  branch: main
+
+# Where uploaded images will be stored and referenced
+media_folder: "images"
+public_folder: "images"
+
+# Sveltia CMS supports GitHub auth directly (or PKCE)
+collections:
+  - name: "portfolio_data"
+    label: "Portfolio Editor"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - file: "content.json"
+        label: "Website Content & Copy"
+        name: "content"
+        format: "json"
+        fields:
+          - label: "Hero & Bio"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Headline Prefix", name: "headline", widget: "string" }
+              - { label: "Headline Subtitle (Role)", name: "headline_sub", widget: "string" }
+              - { label: "One-Line Bio", name: "bio", widget: "text" }
+              - { label: "Philosophy Quote", name: "philosophy", widget: "text" }
+              - { label: "Hero Portrait Photo (Upload your photo)", name: "portrait_image", widget: "image", required: false }
+              - { label: "Primary CTA Label", name: "cta_primary_text", widget: "string" }
+              - { label: "Secondary CTA Label", name: "cta_secondary_text", widget: "string" }
+
+          - label: "Top Social & External Links"
+            name: "nav"
+            widget: "object"
+            fields:
+              - { label: "Instagram Profile URL", name: "instagram_url", widget: "string" }
+              - { label: "TikTok Profile URL", name: "tiktok_url", widget: "string" }
+              - { label: "Facebook Profile URL", name: "facebook_url", widget: "string" }
+
+          - label: "Selected Work (Portfolio Projects)"
+            name: "portfolio"
+            widget: "list"
+            summary: "{{fields.title}} ({{fields.category}})"
+            fields:
+              - { label: "Card Number (e.g. 01)", name: "num", widget: "string" }
+              - { label: "Category (e.g. Weddings, Editorial)", name: "category", widget: "string" }
+              - { label: "Location / Setting", name: "location", widget: "string" }
+              - { label: "Project Title", name: "title", widget: "string" }
+              - { label: "Direct Gallery / Instagram Link", name: "url", widget: "string" }
+              - { label: "Project Description", name: "description", widget: "text" }
+              - { label: "Skill Proven", name: "skill", widget: "string" }
+              - { label: "Custom Cover Image (Optional)", name: "image", widget: "image", required: false }
+
+          - label: "Beyond Stills (Creative Pillars)"
+            name: "verticals"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Pillar Number", name: "num", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Button Label", name: "link_text", widget: "string" }
+              - { label: "Destination URL", name: "link_url", widget: "string" }
+
+          - label: "Client Testimonials"
+            name: "testimonials"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.context}}"
+            fields:
+              - { label: "Client Quote", name: "quote", widget: "text" }
+              - { label: "Client Name", name: "name", widget: "string" }
+              - { label: "Event / Milestone Context", name: "context", widget: "string" }
+              - { label: "Gallery Link URL", name: "gallery_url", widget: "string", required: false }
+
+          - label: "About Section"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Full Bio Paragraph", name: "bio", widget: "text" }
+              - { label: "Specialty Tags", name: "tags", widget: "list" }
+
+          - label: "Contact & Footer"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Instagram URL", name: "instagram_url", widget: "string" }
+              - { label: "Instagram Display Handle", name: "instagram_handle", widget: "string" }
+              - { label: "TikTok URL", name: "tiktok_url", widget: "string" }
+              - { label: "TikTok Display Handle", name: "tiktok_handle", widget: "string" }
+              - { label: "Facebook URL", name: "facebook_url", widget: "string" }
+              - { label: "Facebook Display Name", name: "facebook_name", widget: "string" }
+              - { label: "Booking CTA Text", name: "booking_cta", widget: "string" }
+              - { label: "Footer Subtitle", name: "footer_sub", widget: "text" }
+              - { label: "Primary Markets", name: "primary_markets", widget: "string" }
