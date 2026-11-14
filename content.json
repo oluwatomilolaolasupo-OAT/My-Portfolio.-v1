@@ -1,0 +1,115 @@
+{
+  "hero": {
+    "headline": "Olasupo Abigael Tomilola:",
+    "headline_sub": "Wedding, Convocation & Editorial Portrait Photographer",
+    "bio": "Capturing timeless milestones, vintage-inspired love stories, and clean editorial portraits across Ibadan, Ekiti, and Southwest Nigeria.",
+    "philosophy": "Atmosphere over mere documentation — crafting emotion through intentional light, honest posing, and rich, natural skin tones.",
+    "cta_primary_text": "View Selected Work",
+    "cta_secondary_text": "Book a Session",
+    "portrait_image": "images/abigael-portrait.png"
+  },
+  "nav": {
+    "instagram_url": "https://www.instagram.com/oat_graphy/",
+    "tiktok_url": "https://www.tiktok.com/@theoatgrapher",
+    "facebook_url": "https://www.facebook.com"
+  },
+  "portfolio": [
+    {
+      "num": "01",
+      "category": "Weddings",
+      "location": "Ibadan, Nigeria",
+      "title": "A&M Wedding Collection — Ibadan",
+      "url": "https://www.instagram.com/p/DcrOHrdiMJ3/",
+      "description": "Full-day wedding and bridal photography series highlighting traditional purple-themed elegance and candid couple moments.",
+      "skill": "Live-Event Storytelling & Ceremony Lighting"
+    },
+    {
+      "num": "02",
+      "category": "Editorial",
+      "location": "Studio",
+      "title": "Vintage Love Through the Ages — Editorial Concept",
+      "url": "https://www.instagram.com/p/DVOsTVkiDnp/",
+      "description": "Creative studio and silhouette portrait series contrasting 1960s nostalgic styling with contemporary romance.",
+      "skill": "Creative Direction & Silhouette Lighting"
+    },
+    {
+      "num": "03",
+      "category": "Convocation",
+      "location": "Ekiti State University",
+      "title": "EKSU Convocation & Milestone Portraits",
+      "url": "https://www.instagram.com/p/Dct67IbiE_E/",
+      "description": "Outdoor graduation portrait series celebrating academic milestones at Ekiti State University.",
+      "skill": "On-Location Natural Light & Skin-Tone Retouching"
+    },
+    {
+      "num": "04",
+      "category": "Studio",
+      "location": "Studio, SW Nigeria",
+      "title": "Studio Editorial & Birthday Portraits",
+      "url": "https://www.instagram.com/p/DPJVriMCIfH/",
+      "description": "Clean, studio-lit portrait collection showcasing expressive styling, textured backdrops, and sharp retouching.",
+      "skill": "Studio Strobe Control & Color Grading"
+    }
+  ],
+  "verticals": [
+    {
+      "num": "02",
+      "icon": "video",
+      "title": "Short-Form Reels & Motion",
+      "description": "Behind-the-scenes lighting setups, transition reels, and wedding highlight motion clips — the work in motion.",
+      "link_text": "Watch Reels on TikTok",
+      "link_url": "https://www.tiktok.com/@theoatgrapher"
+    },
+    {
+      "num": "03",
+      "icon": "globe",
+      "title": "Conceptual Art & Silhouette Direction",
+      "description": "Custom set styling, vintage wardrobe direction, and dramatic shadow-play sessions — where photography becomes art direction.",
+      "link_text": "Explore Editorial Concepts",
+      "link_url": "https://www.instagram.com/p/DVOsTVkiDnp/"
+    },
+    {
+      "num": "04",
+      "icon": "star",
+      "title": "High-End Color Grading & Retouching",
+      "description": "Natural, true-to-tone skin retouching and editorial color finishing for milestone portraits. The quiet craft behind every gallery.",
+      "link_text": "View Studio Work",
+      "link_url": "https://www.instagram.com/p/DPJVriMCIfH/"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Abigael captured our entire traditional and white wedding day — from the introduction ceremony in the morning to the evening reception — with such care and presence. The gallery came back rich in colour, deeply emotional, and full of candid moments we didn't even know she caught. Our purple-themed day looked exactly like a magazine spread.",
+      "name": "Adewale & Mojirayo",
+      "context": "Traditional & White Wedding — Ibadan, 2025",
+      "gallery_url": "https://www.instagram.com/p/DcrOHrdiMJ3/"
+    },
+    {
+      "quote": "I booked Abigael for my EKSU convocation and was blown away. She worked quickly in the outdoor heat, found the most flattering natural light on campus, and delivered portraits that look like professional brand shots. My parents framed three of them. This was the best investment I made for my graduation day.",
+      "name": "Funmilola Adeyemi",
+      "context": "Convocation Portraits — Ekiti State University, 2025",
+      "gallery_url": "https://www.instagram.com/p/Dct67IbiE_E/"
+    },
+    {
+      "quote": "My birthday shoot in the studio was an experience from start to finish. Abigael has a way of making you feel completely at ease in front of the camera — she directed me through poses so naturally that I forgot I was even being photographed. The colour grading and retouching on the final images were impeccable: luminous, clean, and 100% true to my skin tone.",
+      "name": "Olawunmi Bankole",
+      "context": "Studio Birthday Portraits — SW Nigeria, 2025",
+      "gallery_url": "https://www.instagram.com/p/DPJVriMCIfH/"
+    }
+  ],
+  "about": {
+    "bio": "I am Olasupo Abigael Tomilola, the creative behind @oat_graphy, a photographer based in Southwest Nigeria specializing in weddings, milestone graduations, and expressive studio portraiture. Whether directing a vintage silhouette concept or documenting a bustling wedding day in Ibadan or Ekiti, I focus on clean lighting, authentic emotion, and natural skin tones. Every gallery featured above is a live client or creative portfolio project ready for viewing.",
+    "tags": ["Wedding Photography", "Convocation Portraits", "Editorial Concepts", "Studio Lighting", "Natural Light", "Color Grading"]
+  },
+  "contact": {
+    "instagram_url": "https://www.instagram.com/oat_graphy/",
+    "instagram_handle": "@oat_graphy",
+    "tiktok_url": "https://www.tiktok.com/@theoatgrapher",
+    "tiktok_handle": "@theoatgrapher",
+    "facebook_url": "https://www.facebook.com",
+    "facebook_name": "Olasupo Abigael Tomilola",
+    "booking_cta": "Book via Instagram DM",
+    "footer_sub": "Weddings · Convocations · Editorial Portraits\nBased in Southwest Nigeria — Available across Nigeria",
+    "primary_markets": "Ibadan · Ekiti · Southwest Nigeria"
+  }
+}
